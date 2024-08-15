@@ -47,12 +47,11 @@ body{
     font-weight: 900;
     color: #1f2937;
     text-align: center;
-    padding: 30px;
+    padding: 40px;
 }
 
 .box-info{
     display: flex;
-    gap: 10px;
     max-width: 500px;
 }
 
@@ -111,13 +110,45 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin: 100px;
-    padding: 20px;
+    padding: 40px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Sign-up{
+    padding: 10px 20px;
+    color: white;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-radius: 10px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .text{
-    font-size: 18px;
+    font-size: 24px;
     color: #e5e7eb;
     font-weight: 600;
+    padding: 20px;
+    margin: auto;
+}
+
+.action p{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: lighter;
+    margin: auto;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px;
+}
+
+.footer-text{
+    text-align: center;
 }
     
 h1{
@@ -138,6 +169,8 @@ p{
     border-radius: 10px;
     padding: 10px 20px;
     border: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 ul{
